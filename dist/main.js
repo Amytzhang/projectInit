@@ -1,0 +1,1 @@
+(()=>{var r={85:r=>{r.exports="hello word"}},o={};function e(t){if(o[t])return o[t].exports;var s=o[t]={exports:{}};return r[t](s,s.exports,e),s.exports}(()=>{let r=e(85);console.log("a:",r)})()})();
