@@ -4,14 +4,19 @@
   "description": "",
   "main": "export1.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "webpack",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "mocha": "^8.2.1",
     "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }
