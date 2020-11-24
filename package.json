@@ -1,22 +1,25 @@
 {
   "name": "webpack1",
   "version": "1.0.0",
-  "description": "",
-  "main": "export1.js",
+  "description": "test of webpack",
+  "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "serve": "webpack",
-    "test": "mocha"
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amytzhang/projectInit.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amytzhang/projectInit/issues"
+  },
+  "homepage": "https://github.com/Amytzhang/projectInit#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
     "html-webpack-plugin": "^4.5.0",
-    "mocha": "^8.2.1",
-    "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
   }
 }

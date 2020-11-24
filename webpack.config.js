@@ -1,27 +1,22 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require("path")
+const HtmlWebpackPlugin = require("html-webpack-plugin")
 module.exports = {
-  mode: 'development',
+  mode: "development",
   entry: "./src/index.js",
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname,'dist')
+  output:{
+    filename: "build.js",
+    path: path.resolve(__dirname,"dist")
   },
-  devServer:{
-    port: 8080,
-    open: true,
-    compress: true
-  },
-  plugins:[
+  plugins: [
     new HtmlWebpackPlugin({
-      template: './src/test.html',
+      template:"./index.html",
       hash: true,
       minify:{
-        removeAttributeQuotes: true,
-        collapseInlineTagWhitespace: true,
-        removeComments:true
+        removeAttributeQuotes:true,
+        collapseWhitespace: true,
+        removeComments: true
       },
-      filename: 'ab.html'
+      filename:"out.html"
     })
   ]
 }

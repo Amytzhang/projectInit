@@ -1,2 +1,0 @@
-# projectInit
-practice
